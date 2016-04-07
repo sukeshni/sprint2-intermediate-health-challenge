@@ -1,0 +1,24 @@
+{
+  "tags": [
+    "Any language/framework",
+    "RESTAPI"
+  ],
+  "editable": [
+    "app/server.js",
+    "config/config.json"
+    ".gitignore",
+    "answer.md",
+    "codecheck.yml",
+    "package.json"
+  ],
+  "excludes": [
+    "challenge.json"
+  ],
+  "main" : "app/server.js",
+  "readme" : {
+    "en" : "README.md",
+    "ja" : "README_ja.md"
+  },
+  "allowNewFile": true,
+  "test": "npm test"
+}
